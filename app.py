@@ -3,7 +3,6 @@ from flask_restx import Api
 
 from config import Config
 from setup_db import db
-
 from views.movies import movies_ns
 from views.directors import directors_ns
 from views.genres import genres_ns
